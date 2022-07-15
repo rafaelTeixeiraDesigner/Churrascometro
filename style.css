@@ -1,0 +1,342 @@
+*   {margin: 0; padding: 0;}
+
+@font-face      {
+                font-family: mabook;
+                src: url(./Files/Mabook.otf);
+                }
+
+#leftContainer  {
+                display: inline-block;
+                background-color: white;
+                width: 50%;
+                height: 100vh;
+                }
+
+#rightContainer {
+                                float: right;
+                display: inline-flex;
+                background-color: white;
+                width: 50%;
+                height: 100vh;
+                }
+
+#redContainer   {
+                background-color: #F83B4F ;
+                display: inline-flex;
+                width: 75%;
+                height: 85%;
+                margin: auto;
+                border-radius: 40px;
+                }
+
+#yellowContainer{
+                display: inline-flex;
+                background-color: #FCBB53;
+                width: 90%;
+                height: 90%;
+                margin: auto;
+                border-radius: 40px;
+                }
+
+#content        {
+                text-align: center;
+                margin: auto;
+                margin-top: 30px;
+                }
+
+h1              {
+                margin-left: 70px;
+                margin-top: 20px;
+                font-family: 'mabook';
+                text-align: center;
+                padding: 25px;
+                font-size: 4vw;
+                }
+
+#churrasco      {color: #F83B4F}
+
+#perfeito       {color: #FCBB53}
+
+#desktopImg     {
+                display: block;
+                margin-left: 10vw;
+                margin-top: 1px;
+                width: 35vw;
+                }  
+
+p               {
+                font-family: 'mabook';
+                font-size: 35px;
+                padding: 10px;
+                }
+
+input           {
+                text-align: center;
+                font-family: 'mabook';
+                border: none;
+                border-radius: 10px;
+                width: 70px;
+                height: 70px;
+                font-size: 45px;
+                }
+
+#button1        {
+                margin-top: 35px;
+                border: none;
+                border-radius: 15px;
+                background-color: #663333;
+                width: 200px;
+                height: 60px;
+                font-family: 'mabook';
+                font-size: 35px;
+                color: white;
+                transition: 0.3s;
+                }
+
+
+
+#button1:hover  {
+                transition: 0.3s;
+                background-color: BLACK;
+                }  
+
+#button2        {
+                margin-top: 15px;
+                border: none;
+                border-radius: 15px;
+                background-color: #ffffff;
+                width: 160px;
+                height: 40px;
+                font-family: 'mabook';
+                font-size: 30px;
+                color: #F83B4F;
+                transition: 0.3s;
+                }
+
+#button2:hover  {
+                transition: 0.3s;
+                background-color: BLACK;
+                }  
+
+#brownContainer {
+                background-color: #663333 ;
+                display: none;
+                width: 75%;
+                height: 85%;
+                margin: auto;
+                border-radius: 40px;
+                }                
+
+#resultContent  {
+                font-size: 16.3px;
+                display: inline-flex;
+                width: 100%;
+                height: 60%;
+                text-align: center;
+                }
+
+#placeResultImg {
+                margin-bottom: 0px;
+                width: 100%;
+                height: 35%;
+                text-align: center;
+                }
+
+#resultImg      {width: 68%;}
+
+#resultFunction {
+                font-size: 175%;
+                color:#FCBB53;
+                padding: 30px;
+                line-height: 1;
+                }
+
+#colorWhite     {color:white;}
+
+#colorBlack     {color:#000000;}
+
+#colorRed       {color:#F83B4F;}
+
+#colorWhite2    {
+                color:white;
+                font-size: 40px;
+                } 
+
+
+/* Mobile Responsivity */
+
+@media (max-width:1035px)
+                {
+#resultFunction {
+                font-size: 2.7vw;}
+
+h1              {font-size: 5vw;}
+
+p               {font-size: 3vw;}
+
+#resultImg      {
+                width: 70%;
+                margin-top: 30px;
+                }
+                }
+
+@media (max-width:779px)
+                {
+#resultFunction {font-size: 3.1vw;}
+    
+h1              {font-size: 5vw;}
+    
+#resultImg      {
+                width: 70%;
+                margin-top: 70px;
+                }
+
+p               {font-size: 3vw;}}
+
+@media (max-width:644px)    
+                {
+
+#leftContainer  {
+                height: 40vh;
+                width: 100%;
+                display: block;
+                overflow: hidden;
+                }
+
+h1              {
+                font-size: 10vw;
+                padding: 13px;
+                padding-bottom: 5px;
+                margin: 0;
+                }
+
+#desktopImg     {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50vw;
+                }
+
+#rightContainer {
+                height: 60vh;
+                width: 100%;
+                display: block;
+                text-align: center;
+                }
+
+p               {
+                font-family: 'mabook';
+                font-size: 5vw;
+                padding-top: 10px;
+                padding-bottom: 5px;
+                margin-top: 0px;
+                }
+
+
+#button1        {
+                width: 30vw;
+                height: 7vh;
+                font-size: 5vw;
+                }
+
+#button2        {
+                width:30vw;
+                height:7vh;
+                font-size: 5vw;
+                margin-top: 20%;
+                }
+
+#redContainer   {
+                width: 75vw;
+                height: 55vh;
+                margin: auto;
+                border-radius: 40px;
+                }
+
+#content        {
+                height: 90%;
+                text-align: center;
+                margin: auto;
+                } 
+
+input           {
+                text-align: center;
+                font-family: 'mabook';
+                border: none;
+                border-radius: 10px;
+                width: 10vw;
+                height: 5vh;
+                font-size: 25px;
+                }
+
+#yellowContainer{
+                display: inline-flex;
+                background-color: #FCBB53;
+                width: 90%;
+                height: 90%;
+                margin: auto;
+                border-radius: 40px;
+                }
+
+#content        {
+                text-align: center;
+                margin: auto;
+                margin-top: 30px;
+                }
+
+#resultImg      {
+                width: 40%;
+                margin-top: 0px;
+                margin-left: auto; 
+                margin-right: auto;
+                display: none;   
+                }
+
+#colorWhite2    {
+                font-size: 6vw;
+                }
+
+#resultFunction {
+                font-size: 4vw;
+                color:#FCBB53;
+                padding: 20px;
+                line-height: 1;
+                }
+
+#brownContainer {
+                width: 75vw;
+                height: 50vh;
+                }
+                }   
+
+
+
+
+@media (max-width:440px)
+                {
+
+#desktopImg     {width: 65vw;}
+
+input           {
+                width: 13vw;
+                height: 5vh;
+                font-size: 25px;
+                }
+
+p               {font-size: 6vw;}
+
+#resultFunction {
+                font-size: 5vw;
+                padding: 20px;
+                line-height: 1;
+                }
+
+#colorWhite2    {font-size: 8vw;}
+
+#button1        {
+                font-size: 7vw;
+                margin-top: 3.5vh;
+                }
+
+#button2        {font-size: 7vw;}
+                }
