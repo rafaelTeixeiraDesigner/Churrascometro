@@ -1,11 +1,11 @@
 *   {margin: 0; padding: 0;}
 
 @font-face      {
-                font-family: mabook;
-                src: url(./Files/Mabook.otf);
-                }
+                    font-family: comic;
+                    src: url(./Files/comicz.ttf);
+                    }
 
-#leftContainer  {
+#leftContainer, #rightContainer  {
                 display: inline-block;
                 background-color: white;
                 width: 50%;
@@ -13,14 +13,11 @@
                 }
 
 #rightContainer {
-                                float: right;
+                float: right;
                 display: inline-flex;
-                background-color: white;
-                width: 50%;
-                height: 100vh;
                 }
 
-#redContainer   {
+#redContainer, #yellowContainer   {
                 background-color: #F83B4F ;
                 display: inline-flex;
                 width: 75%;
@@ -30,24 +27,22 @@
                 }
 
 #yellowContainer{
-                display: inline-flex;
                 background-color: #FCBB53;
                 width: 90%;
                 height: 90%;
-                margin: auto;
-                border-radius: 40px;
                 }
 
 #content        {
                 text-align: center;
                 margin: auto;
-                margin-top: 30px;
+                margin-top: 1vw;
                 }
 
 h1              {
                 margin-left: 70px;
-                margin-top: 20px;
-                font-family: 'mabook';
+                margin-top: 0px;
+                font-family: 'comic', Verdana, Tahoma;
+                line-height: 1.2;
                 text-align: center;
                 padding: 25px;
                 font-size: 4vw;
@@ -61,18 +56,18 @@ h1              {
                 display: block;
                 margin-left: 10vw;
                 margin-top: 1px;
-                width: 35vw;
+                width: 33vw;
                 }  
 
 p               {
-                font-family: 'mabook';
+                font-family: 'comic', Verdana, Tahoma;
                 font-size: 35px;
                 padding: 10px;
                 }
 
 input           {
                 text-align: center;
-                font-family: 'mabook';
+                font-family: 'comic', Verdana, Tahoma;
                 border: none;
                 border-radius: 10px;
                 width: 70px;
@@ -81,13 +76,13 @@ input           {
                 }
 
 #button1        {
-                margin-top: 35px;
+                margin-top: 2vw;
                 border: none;
                 border-radius: 15px;
                 background-color: #663333;
                 width: 200px;
                 height: 60px;
-                font-family: 'mabook';
+                font-family: 'comic', Verdana, Tahoma;
                 font-size: 35px;
                 color: white;
                 transition: 0.3s;
@@ -98,16 +93,17 @@ input           {
 #button1:hover  {
                 transition: 0.3s;
                 background-color: BLACK;
+                cursor: pointer;
                 }  
 
 #button2        {
-                margin-top: 15px;
+                margin-top: 1vw;
                 border: none;
                 border-radius: 15px;
                 background-color: #ffffff;
                 width: 160px;
                 height: 40px;
-                font-family: 'mabook';
+                font-family: 'comic', Verdana, Tahoma;
                 font-size: 30px;
                 color: #F83B4F;
                 transition: 0.3s;
@@ -116,6 +112,7 @@ input           {
 #button2:hover  {
                 transition: 0.3s;
                 background-color: BLACK;
+                cursor: pointer;
                 }  
 
 #brownContainer {
@@ -165,7 +162,7 @@ input           {
 
 /* Mobile Responsivity */
 
-@media (max-width:1035px)
+@media (max-width:1066px)
                 {
 #resultFunction {
                 font-size: 2.7vw;}
@@ -225,7 +222,7 @@ h1              {
                 }
 
 p               {
-                font-family: 'mabook';
+                font-family: 'comic', Verdana, Tahoma;
                 font-size: 5vw;
                 padding-top: 10px;
                 padding-bottom: 5px;
@@ -243,7 +240,7 @@ p               {
                 width:30vw;
                 height:7vh;
                 font-size: 5vw;
-                margin-top: 20%;
+                margin-top: 16vw;
                 }
 
 #redContainer   {
@@ -261,7 +258,7 @@ p               {
 
 input           {
                 text-align: center;
-                font-family: 'mabook';
+                font-family: 'comic', Verdana, Tahoma;
                 border: none;
                 border-radius: 10px;
                 width: 10vw;
@@ -281,7 +278,6 @@ input           {
 #content        {
                 text-align: center;
                 margin: auto;
-                margin-top: 30px;
                 }
 
 #resultImg      {
